@@ -5,7 +5,7 @@ var page_count = 50;
 var max_msg = 2222;
 var max_page = Math.floor(max_msg / page_count);
 
-$.getJSON("/campus_sorted.json", function (json) {
+$.getJSON("campus_sorted.json", function (json) {
     data = json;
     display_batch(cur_id);
 });
