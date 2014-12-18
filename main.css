@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 700;
+    src: local("PT Sans Caption Bold"), local("PTSans-CaptionBold"), url("http://fonts.gstatic.com/s/ptsanscaption/v9/Q-gJrFokeE7JydPpxASt29RYZ4-1s-3wi7mHpVwon4Y.woff") format("woff");
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+h2 {
+    font-family: "PT Sans Caption", Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main_container {
+    margin: 0 auto;
+    text-align: left;
+    width: 720px;
+}
+
+table, td{
+    /*border: 1px solid black;*/
+}
+
+table {
+    width:100%;
+    margin: 20px 0;
+}
+
+.number {
+    width: 40px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.first_col {
+    width: 10px;
+}
+
+.msg_body {
+    background: #f2f2f2;
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+.unvisible {
+    display: none;
+}
+
+/*img, div {*/
+    /*border: 1px solid black;*/
+/*}*/
+
+.strong {
+    font-weight: bold;
+}
